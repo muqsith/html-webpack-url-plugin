@@ -3,12 +3,24 @@
   "version": "1.0.0",
   "description": "Instead of html template provide a URL for your template",
   "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "node-fetch": "^2.0.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muqsith/html-webpack-url-plugin.git"
+  },
+  "keywords": [
+    "htmlwebpack"
+  ],
+  "author": "muqsith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muqsith/html-webpack-url-plugin/issues"
+  },
+  "homepage": "https://github.com/muqsith/html-webpack-url-plugin#readme"
 }
